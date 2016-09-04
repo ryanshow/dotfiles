@@ -13,6 +13,10 @@
     ~/.config/nvim/init.vim:
       relink: true
       path: 'vimrc'
+    ~/.minttyrc:
+      relink: true
+      force: true
+      path: 'minttyrc'
     
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
