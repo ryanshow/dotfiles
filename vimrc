@@ -34,7 +34,7 @@ call plug#end()
 
 syntax enable
 set background=dark
-colorscheme solarized
+silent! colorscheme solarized
 
 set expandtab
 set shiftwidth=2
